@@ -32,3 +32,4 @@ elif unit == "C":
     convert_to_fahrenheit(temp)
 else:
     print("unvalid unit")
+    print("Invalid temperature. Please enter a numeric value.")
