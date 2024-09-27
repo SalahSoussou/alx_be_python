@@ -16,7 +16,7 @@ def convert_to_celsius(fahrenheit):
 
 
 def convert_to_fahrenheit(celsius):
-    result = (celsius * FAHRENHEIT_TO_CELSIUS_FACTOR) + 32
+    result = celsius * CELSIUS_TO_FAHRENHEIT_FACTOR + 32
     print (f"({celsius}°C is {result}°F")
 
 
