@@ -29,7 +29,7 @@ class TestSimpleCalculator(unittest.TestCase):
 
     def test_division(self):
         self.assertEqual(self.calc.divide(9, 3), 3)
-        self.assertEqual(self.calc.divide(10, 5), )
+        self.assertEqual(self.calc.divide(10, 5), 2)
         self.assertEqual(self.calc.divide(4, 0), None)
 
 
