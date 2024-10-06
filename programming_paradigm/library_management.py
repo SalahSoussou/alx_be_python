@@ -17,6 +17,7 @@ class Library:
     def add_book(self,book):
         self.books.append(book)
 
+"check_out", "return_book(self)", "True"
 
 book1 = Library.add_book(Book("Brave New World", "Aldous Huxley"))
 
